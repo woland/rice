@@ -19,7 +19,8 @@
     "hyprland/language",
     "pulseaudio",
     "network",
-    "custom/transparency"
+    "custom/transparency",
+    "custom/power"
   ],
   "hyprland/window": {
     "format": "{initialClass}",
@@ -28,7 +29,7 @@
     "seperate-outputs": true,
     "rewrite": {
       "": "  Fedora",
-      "Mozilla Firefox": "Firefox",
+      "(.*)firefox": "Firefox",
       "(.*) Thunar": "Thunar",
       "(.*)obs(.*)": "OBS",
       "Spotify (.*)": "Spotify",
@@ -165,7 +166,6 @@
         "\uf025 ▓▓▓▓▓▓▓▓░░",
         "\uf025 ▓▓▓▓▓▓▓▓▓░",
         "\uf025 ▓▓▓▓▓▓▓▓▓▓"
-
       ]
     },
     "tooltip-format": "{volume}% {desc}",
@@ -179,5 +179,11 @@
     "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
     "format-us": "EN",
     "format-ua": "UA"
+  },
+  "custom/power": {
+    "tooltip": true,
+    "on-click": "wlogout &",
+    "format": "\uf011",
+    "tooltip-format": "Power Menu"
   }
 }

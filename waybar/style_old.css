@@ -42,6 +42,11 @@ menu,
   color: @text;
 }
 
+#custom-power {
+  color: @text;
+  padding: 0 15px;
+}
+
 /* Workspace */
 #workspaces {
   background: @mantle;
