@@ -1,0 +1,239 @@
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+info: Starting profile User default {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"","id":"local:default","isBuiltin":true,"isTemplate":false,"name":"User default","options":{"args":["--login"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 174x40
+debug: Setting language to
+debug: Resizing to 174x40
+info: Destroying
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 174x40
+info: Destroying
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Resizing to 163x38
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 95x29
+debug: Resizing to 120x34
+debug: Resizing to 165x36
+debug: Resizing to 166x37
+debug: Resizing to 166x38
+debug: Resizing to 315x72
+info: Destroying
+info: Starting profile User default {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"","id":"local:default","isBuiltin":true,"isTemplate":false,"name":"User default","options":{"args":["--login"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Starting profile User default {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"","id":"local:default","isBuiltin":true,"isTemplate":false,"name":"User default","options":{"args":["--login"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Destroying
+info: Destroying
+debug: Resizing to 315x72
+info: Destroying
+debug: Setting language to
+debug: Resizing to 315x72
+info: Destroying
+debug: Resizing to 315x72
+info: Destroying
+debug: Setting language to
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+info: Destroying
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 166x38
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"allow-file-access-from-files":true,"allowFileAccessFromFiles":true,"disable-http-cache":true,"disableHttpCache":true,"force_discrete_gpu":0,"lang":"EN","max-active-webgl-contexts":9000,"maxActiveWebglContexts":9000,"sandbox":[false,false]},"cwd":"/home/woland","secondInstance":true}
+info: CLI handler matched:
+info: v
+debug: Setting language to
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+debug: Resizing to 80x38
+debug: Resizing to 80x38
+info: Destroying
+debug: Resizing to 166x38
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 166x38
+info: Destroying
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 166x38
+info: Destroying
+debug: Resizing to 166x38
+info: Destroying
+debug: Setting language to
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 166x38
+info: Destroying
+debug: Setting language to
+debug: Setting language to
+info: Destroying
+info: Starting profile zsh {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbinzsh","isBuiltin":true,"isTemplate":false,"name":"zsh","options":{"args":["-l"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 166x38
+debug: Resizing to 315x72
+debug: Resizing to 155x72
+debug: Resizing to 155x72
+debug: Resizing to 80x38
+debug: Resizing to 80x38
+debug: Resizing to 155x72
+debug: Resizing to 155x72
+info: Starting profile zsh {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbinzsh","isBuiltin":true,"isTemplate":false,"name":"zsh","options":{"args":["-l"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Destroying
+info: Destroying
+debug: Resizing to 315x72
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+info: Starting profile zsh {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbinzsh","isBuiltin":true,"isTemplate":false,"name":"zsh","options":{"args":["-l"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+debug: Resizing to 155x72
+debug: Resizing to 155x72
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 155x72
+debug: Resizing to 155x72
+info: Destroying
+debug: Resizing to 314x72
+debug: Resizing to 315x72
+info: Destroying
+debug: Setting language to
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+debug: Setting language to
+debug: Resizing to 150x34
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+debug: Resizing to 299x72
+info: CLI handler matched:
+debug: Resizing to 315x72
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+debug: Resizing to 299x72
+info: CLI handler matched:
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+debug: Resizing to 315x72
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 315x72
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 315x72
+info: Destroying
+debug: Resizing to 299x72
+debug: Resizing to 315x72
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 315x72
+debug: Resizing to 166x38
+debug: Resizing to 179x47
+debug: Resizing to 196x55
+debug: Resizing to 214x57
+debug: Resizing to 216x58
+debug: Resizing to 216x59
+debug: Resizing to 315x72
+info: Destroying
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 315x72
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 216x59
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 216x59
+info: Destroying
+info: Starting profile tmux {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"fas fa-terminal","id":"local:usrbintmux","isBuiltin":true,"isTemplate":false,"name":"tmux","options":{"args":["-l"],"command":"/usr/bin/tmux","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 216x59
+debug: Resizing to 315x72
+debug: Setting language to
+debug: Setting language to
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 216x59
+debug: Resizing to 102x27
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 216x59
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 216x59
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"/opt/Tabby/tabby","_":[],"sandbox":false},"cwd":"/home/woland","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 125x53
+info: Destroying

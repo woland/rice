@@ -1,0 +1,183 @@
+{
+  "layer": "top",
+  "margin-left": 3,
+  "margin-right": 3,
+  "margin-top": 2,
+  "margin-bottom": 0,
+  "modules-left": [
+    "hyprland/workspaces",
+    "cpu",
+    "memory",
+    "network#speed"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "hyprland/window",
+    "hyprland/language",
+    "pulseaudio",
+    "network",
+    "custom/transparency"
+  ],
+  "hyprland/window": {
+    "format": "{initialClass}",
+    "icon": true,
+    "icon-size": 19,
+    "seperate-outputs": true,
+    "rewrite": {
+      "": "  Fedora",
+      "Mozilla Firefox": "Firefox",
+      "(.*) Thunar": "Thunar",
+      "(.*)obs(.*)": "OBS",
+      "Spotify (.*)": "Spotify",
+      "discord(.*)": "Discord",
+      "Code": "VS Code",
+      "Docker Desktop": " Docker",
+      "kitty": "Kitty",
+      "zen": "Zen"
+    },
+    "on-click-middle": "pkill waybar && hyprctl dispatch exec waybar"
+  },
+  "temperature#gpu": {
+    "thermal-zone": 5,
+    "critical-threshold": 80,
+    "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C ",
+    "tooltip": false
+  },
+  "network#speed": {
+    "interval": 1,
+    "format": "{ifname}%%",
+    "format-ethernet": " \uf13a {bandwidthDownBytes} \uf139 {bandwidthUpBytes} ",
+    "tooltip-format": "{ipaddr}",
+    "format-linked": "󰈁 {ifname} (No IP)",
+    "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+    "tooltip-format-ethernet": "{ifname} 󰌘",
+    "tooltip-format-disconnected": "󰌙 Disconnected",
+    "max-length": 22,
+    "min-length": 20,
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ]
+  },
+  "custom/transparency": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "~/.config/waybar/scripts/toggle-trans.sh",
+    "format-alt": " "
+  },
+  "cpu": {
+    "interval": 1,
+    "format": "{usage}% <span font='Font Awesome 7 Free-Solid'>\uf2db</span>",
+    "on-click": "kitty htop"
+  },
+  "memory": {
+    "interval": 1,
+    "format": "{percentage}% <span font='Font Awesome 7 Free'>\uf538</span>",
+    "on-click": "kitty htop",
+    "tooltip-format": "{used}/{total} GiB"
+  },
+  "hyprland/workspaces": {
+    "all-outputs": true,
+    "warp-on-scroll": true,
+    "enable-bar-scroll": true,
+    "disable-scroll-wraparound": false,
+    "format": " {icon} ",
+    "format-icons": {
+      "active": "●",
+      "default": "●"
+    },
+    "persistent-workspaces": {
+      "*": 6
+    },
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1"
+  },
+  "clock": {
+    "format": "{:%H:%M / %h %d}",
+    "tooltip": true,
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "year",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode"
+    }
+  },
+  "network": {
+    "format-ethernet": " {ipaddr}",
+    "format-icons": [
+      "󰤯 ",
+      "󰤟 ",
+      "󰤢 ",
+      "󰤢 ",
+      "󰤨 "
+    ],
+    "format-disconnected": "󰪎",
+    "interval": 5,
+    "tooltip-format-ethernet": " {bandwidthDownBytes} |  {bandwidthUpBytes} | {ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click-right": "kitty -e nmtui"
+  },
+  "pulseaudio": {
+    "format": "<span font='Font Awesome 7 Free'>{icon}</span>",
+    "format-muted": "<span font='Font Awesome 7 Free'>\uf6a9</span>",
+    "format-icons": {
+      "default": [
+        "\uf027 ░░░░░░░░░░",
+        "\uf027 ▓░░░░░░░░░",
+        "\uf027 ▓▓░░░░░░░░",
+        "\uf027 ▓▓▓░░░░░░░",
+        "\uf027 ▓▓▓▓░░░░░░",
+        "\uf027 ▓▓▓▓▓░░░░░",
+        "\uf027 ▓▓▓▓▓▓░░░░",
+        "\uf027 ▓▓▓▓▓▓▓░░░",
+        "\uf027 ▓▓▓▓▓▓▓▓░░",
+        "\uf027 ▓▓▓▓▓▓▓▓▓░",
+        "\uf027 ▓▓▓▓▓▓▓▓▓▓"
+      ],
+      "alsa_output.usb-Razer_Razer_Barracuda_X-00.analog-stereo": [
+        "\uf025 ░░░░░░░░░░",
+        "\uf025 ▓░░░░░░░░░",
+        "\uf025 ▓▓░░░░░░░░",
+        "\uf025 ▓▓▓░░░░░░░",
+        "\uf025 ▓▓▓▓░░░░░░",
+        "\uf025 ▓▓▓▓▓░░░░░",
+        "\uf025 ▓▓▓▓▓▓░░░░",
+        "\uf025 ▓▓▓▓▓▓▓░░░",
+        "\uf025 ▓▓▓▓▓▓▓▓░░",
+        "\uf025 ▓▓▓▓▓▓▓▓▓░",
+        "\uf025 ▓▓▓▓▓▓▓▓▓▓"
+
+      ]
+    },
+    "tooltip-format": "{volume}% {desc}",
+    "on-click": "~/.config/waybar/scripts/toggle-audio-sink.sh"
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "hyprland/language": {
+    "format": "{}",
+    "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
+    "format-us": "EN",
+    "format-ua": "UA"
+  }
+}
