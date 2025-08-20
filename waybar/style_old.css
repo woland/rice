@@ -25,6 +25,7 @@ menu,
 #battery,
 #language,
 #tray,
+#taskbar,
 #custom-power {
   background: @mantle;
   padding: 7px 8px;

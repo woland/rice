@@ -8,7 +8,8 @@
     "hyprland/workspaces",
     "cpu",
     "memory",
-    "network#speed"
+    "network#speed",
+    "wlr/taskbar"
   ],
   "modules-center": [
     "clock"
@@ -123,7 +124,7 @@
     }
   },
   "network": {
-    "format-ethernet": " {ipaddr}",
+    "format-ethernet": " \uf796 {ipaddr}",
     "format-icons": [
       "󰤯 ",
       "󰤟 ",
@@ -185,5 +186,16 @@
     "on-click": "wlogout &",
     "format": "\uf011",
     "tooltip-format": "Power Menu"
+  },
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 14,
+    "icon-theme": "Numix-Circle",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "rewrite": {
+      "Firefox Web Browser": "Firefox"
+    }
   }
 }
