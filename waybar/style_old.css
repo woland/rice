@@ -33,6 +33,13 @@ menu,
   border-radius: 6px;
 }
 
+#tray menu menuitem {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 22px;
+  color: @text;
+}
+
 #language {
   min-width: 90px;
   color: @text;

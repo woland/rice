@@ -1,5 +1,6 @@
 {
   "layer": "top",
+  "position":"top",
   "margin-left": 3,
   "margin-right": 3,
   "margin-top": 2,
@@ -12,19 +13,18 @@
     "wlr/taskbar"
   ],
   "modules-center": [
-    "clock"
+    "hyprland/window"
   ],
   "modules-right": [
     "tray",
-    "hyprland/window",
     "hyprland/language",
     "pulseaudio",
     "network",
-    "custom/transparency",
+    "clock",
     "custom/power"
   ],
   "hyprland/window": {
-    "format": "{initialClass}",
+    "format": "{title}",
     "icon": true,
     "icon-size": 19,
     "seperate-outputs": true,
@@ -93,7 +93,10 @@
     "format": " {icon} ",
     "format-icons": {
       "active": "●",
-      "default": "●"
+      "default": "●",
+      "1": "\uf269",
+      "2": "\uf6cc",
+      "3": "\uf086"
     },
     "persistent-workspaces": {
       "*": 6
