@@ -26,6 +26,7 @@ menu,
 #language,
 #tray,
 #taskbar,
+#mpris,
 #custom-power {
   background: @mantle;
   padding: 7px 8px;
@@ -44,6 +45,10 @@ menu,
   min-width: 90px;
   color: @text;
   margin-right: 1px;
+}
+
+#mpris {
+  color: @text;
 }
 
 #pulseaudio {

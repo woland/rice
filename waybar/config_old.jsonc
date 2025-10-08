@@ -16,6 +16,7 @@
     "hyprland/window"
   ],
   "modules-right": [
+    "mpris",
     "tray",
     "hyprland/language",
     "pulseaudio",
@@ -199,6 +200,17 @@
     "on-click-middle": "close",
     "rewrite": {
       "Firefox Web Browser": "Firefox"
+    }
+  },
+  "mpris": {
+    "format": "{player_icon} <i>{artist} - {title}</i>",
+    "format-paused": "{status_icon} <i>{artist} - {title}</i>",
+    "player-icons": {
+      "default": "▶",
+      "mpv": "🎵"
+    },
+    "status-icons": {
+      "paused": "⏸"
     }
   }
 }
