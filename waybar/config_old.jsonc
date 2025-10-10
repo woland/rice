@@ -6,6 +6,7 @@
   "margin-top": 2,
   "margin-bottom": 0,
   "modules-left": [
+    "custom/power",
     "hyprland/workspaces",
     "cpu",
     "memory",
@@ -21,8 +22,8 @@
     "hyprland/language",
     "pulseaudio",
     "network",
-    "clock",
-    "custom/power"
+    "battery",
+    "clock"
   ],
   "hyprland/window": {
     "format": "{title}",
@@ -129,6 +130,7 @@
   },
   "network": {
     "format-ethernet": " \uf796 {ipaddr}",
+    "format-wifi": " {icon} {essid}",
     "format-icons": [
       "󰤯 ",
       "󰤟 ",
@@ -139,6 +141,7 @@
     "format-disconnected": "󰪎",
     "interval": 5,
     "tooltip-format-ethernet": " {bandwidthDownBytes} |  {bandwidthUpBytes} | {ifname}",
+    "tooltip-format-wifi":"{ipaddr} {icon} {signalStrength}%",
     "tooltip-format-disconnected": "Disconnected",
     "on-click-right": "kitty -e nmtui"
   },
@@ -212,5 +215,15 @@
     "status-icons": {
       "paused": "⏸"
     }
+  },
+  "battery": {
+    "interval": 60,
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "max-length": 25
   }
 }
